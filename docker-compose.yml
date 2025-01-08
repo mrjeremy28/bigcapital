@@ -3,8 +3,6 @@
 # Avoid using this file in your production environment.
 # We're exposing here sensitive ports and mounting code volumes for rapid development and debugging of the server stack.
 
-version: '3.3'
-
 services:
   mariadb:
     build:

@@ -1,7 +1,5 @@
 # This is a production version of the Bigcapital docker-compose.yml file.
 
-version: '3.3'
-
 services:
   proxy:
     image: envoyproxy/envoy:v1.30-latest
